@@ -24,7 +24,7 @@ Resources:
     Properties:
       ImageId: ami-0742b4e673072066f
       InstanceType: t2.micro
-      KeyName: serdar
+      KeyName: Firstkey
       SecurityGroupIds:
         - !Ref WebServerSecurityGroup
       Tags:
