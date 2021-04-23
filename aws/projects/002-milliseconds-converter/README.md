@@ -100,7 +100,7 @@ Input             Output
 ## Project Skeleton 
 
 ```
-Project-002-Milliseconds-Converter (folder)
+002-milliseconds-converter (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)          
 |----cfn-template.yml  # To be delivered by students (Cloudformation template)
