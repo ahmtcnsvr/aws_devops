@@ -9,7 +9,7 @@ def convert(millisecond):
     millisecond_left = millisecond % hour_in_millisecond
 
     minute_in_millisecond = 60*1000
-    minutes = millisecond_left // minute_in_millisecond
+    minutes = millisecond // minute_in_millisecond
     millisecond_left %= minute_in_millisecond
 
     seconds = millisecond_left // 1000
