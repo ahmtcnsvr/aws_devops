@@ -15,15 +15,15 @@ def main_post():
     if request.method == 'POST':
         alpha = request.form['number']
         if not alpha.isdecimal():
-            return render_template('index.html', not_valid = True, developer_name='Ahmet Cansever')
+            return render_template('index.html', not_valid = True, developer_name='Serdar')
         number = int(alpha)
         if not 0 < number < 4000:
-            return render_template('index.html', not_valid = True, developer_name='Ahmet Cansever')
-        return render_template('result.html', developer_name = 'Ahmet Cansever', number_decimal = number, number_roman = convert(number))
+            return render_template('index.html', not_valid = True, developer_name='Serdar')
+        return render_template('result.html', developer_name = 'Serdar', number_decimal = number, number_roman = convert(number))
 
         
     else:
-        return render_template('index.html', not_valid = False, developer_name = 'Ahmet Cansever')
+        return render_template('index.html', not_valid = False, developer_name = 'Serdar')
 
 if __name__ == '__main__':
     # app.run(debug=True)
